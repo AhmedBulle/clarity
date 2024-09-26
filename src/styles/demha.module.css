@@ -1,0 +1,69 @@
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: wheat;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    top: 4%;
+    left: 10%;
+    margin-top: 1%;
+}
+.content{
+    display: flex;
+    justify-content: left;
+    font-size: 100px;
+    color : #97aad7;
+    font-family: FONTSPRING DEMO - Roc Grotesk ExtraWide Medium;
+    width: 800px;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    bottom: 0;
+    padding: 0%;
+}
+.touch {
+    
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 26px;
+color: #fff;
+font-family: Syncopate;
+font-size: 22px;
+font-style: normal;
+font-weight: 400px;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    color: #fff;
+    font-family: Montserat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

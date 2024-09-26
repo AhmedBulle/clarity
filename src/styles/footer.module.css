@@ -1,0 +1,60 @@
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    /* border: 1px solid red; */
+}
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    color: #fff;
+    font-family: Syncopate;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width:768px) {
+        width: 100%;
+        margin-bottom: 20%;
+        line-height: 60px;
+        
+        
+    }
+}
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: normal;
+    @media screen and (max-width:768px) {
+        display: flex;
+        position: absolute;
+        /* width: 100%; */
+        font-size: 20px;
+        text-align: center;
+        align-items: centre;
+        
+
+        
+    }
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+}
