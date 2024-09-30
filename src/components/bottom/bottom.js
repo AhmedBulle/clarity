@@ -6,6 +6,7 @@ import Link from "next/link";
 const Bottom  = () => {
     return (
         <div className={style.main} >
+            <div className={style.wrapper}>
             <div className={style.bottom}>
             <p>© 2023 Clarity </p>
             </div>
@@ -29,6 +30,7 @@ const Bottom  = () => {
                 <Image src="/twiter.png" alt="error" width={20} height={20} />
                 </Link>
                 
+            </div>
             </div>
          </div>
         

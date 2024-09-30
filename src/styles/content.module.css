@@ -1,6 +1,67 @@
-.win{
-    color: #06CD98;
 
+.container {
+    width: 100%;
+    /* height: 70vh; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid  white; */
+    /* margin-top: 9%; */
+    
+
+    @media screen and (max-width:768px) {
+        width: 100%;
+        /* border: 2px solid yellow; */
+        height: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: normal;
+        flex-direction: column;
+        padding-top: 30%;
+        padding-bottom: 40%;
+        
+    }
+@media screen and (max-width:350px) {
+    padding-bottom: 0;
+    padding-top: 0;
+    /* margin-top: 10%; */
+}
+}
+.wrapper{
+    /* border: 4px solid firebrick; */
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    @media screen and (max-width:768px) {
+        display: flex;
+        width: 90%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 70px;
+        align-items: center;
+        text-align: center;
+
+        
+    }
+    
+@media screen and (max-width:350px) {
+    /* border: 2px solid yellowgreen; */
+    margin-top: 60%;
+    line-height: normal;
+    width: 80%;
+}
+}
+.win {
+    color: #06CD98;
 text-align: center;
 font-family: Montserrat;
 font-size: 120px;
@@ -9,9 +70,15 @@ font-weight: 900;
 line-height: 128px; /* 106.667% */
 letter-spacing: -0.16px;
 
-@media screen and (max-width:768px){
-    font-size: 40px;
-    line-height: 70px;
+@media screen and (max-width:768px) {
+    font-size: 50px;
+    
+    
+}
+
+@media screen and (max-width:350px) {
+    font-size: 30px;
+    line-height: 50px;
 }
 }
 .life{
@@ -22,79 +89,29 @@ font-style: normal;
 font-weight: 900;
 line-height: 128px;
 letter-spacing: -0.16px;
-display: flex;
-flex-direction: column;
-text-align: center;
-@media screen and (max-width:768px){
-    font-size: 40px;
-    line-height: 60px;
 
+@media screen and (max-width:768px) {
+    font-size: 50px;
+    
+}
+
+@media screen and (max-width:350px) {
+    font-size: 30px;
+    
+    
 }
 }
 .join{
-    /* height: auto; */
-    padding: 17px 45px;
-    /* align-items: center; */
-    border-radius: 9999px;
+    display: flex;
+padding: 17px 45px;
+align-items: flex-start;
+border-radius: 9999px;
 border: 2px solid #06CD98;
 background: #06CD98;
-display:flex;
-justify-content: center;
-/* flex-direction: row; */
-@media screen and (max-width:768px){
-    /* width: 50%; */
-    margin-top: 10%;
-}
+
+
 @media screen and (max-width:350px) {
-    display: flex;
-    gap: 0px;
-    margin-top: 10px;
-
-
-    
-}
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    background: rgba(128, 128, 128, 0.203);
-    height: 50vh;
-    width: 100%;
-   
-    
-    @media screen and (max-width:350px) {
-        /* border: 2px solid greenyellow; */
-        width: 100%;
-        /* height: auto; */
-        position: fixed;
-        
-        
-    }
-    
-    @media screen and (max-width:768px){
-        margin-top: 30%;
-        height: 50vh;
-        width: 100%;
-        display: flex;
-        /* position: relative; */
-        /* border: 1px solid red; */
-        /* margin-bottom: 40px; */
-    
-
-}
-@media screen and (max-width:1100px) {
-    /* border: 1px solid red; */
-    width: 100%;
-    /* height: 60vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 60px;
-    
+    /* font-size: 30px; */
+    /* line-height: 0px; */
 }
 }
