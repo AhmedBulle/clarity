@@ -84,7 +84,7 @@ letter-spacing: -0.16px;
 .life{
     color: #FFF;
 font-family: Montserrat;
-font-size: 120px;
+font-size: clamp(50px, calc(3.125rem + ((1vw - 7.68px) * -2.9514)), 16px);
 font-style: normal;
 font-weight: 900;
 line-height: 128px;
