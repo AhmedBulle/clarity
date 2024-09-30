@@ -64,10 +64,10 @@
     color: #06CD98;
 text-align: center;
 font-family: Montserrat;
-font-size: 120px;
+font-size: clamp(50px, cafontlc(3.125rem + ((1vw - 7.68px) * -2.2569)), 24px);
 font-style: normal;
 font-weight: 900;
-line-height: 128px; /* 106.667% */
+line-height: normal; /* 106.667% */
 letter-spacing: -0.16px;
 
 @media screen and (max-width:768px) {
@@ -84,10 +84,10 @@ letter-spacing: -0.16px;
 .life{
     color: #FFF;
 font-family: Montserrat;
-font-size: clamp(50px, calc(3.125rem + ((1vw - 7.68px) * -2.9514)), 16px);
+font-size: clamp(50px, cafontlc(3.125rem + ((1vw - 7.68px) * -2.2569)), 24px);
 font-style: normal;
 font-weight: 900;
-line-height: 128px;
+line-height: normal;
 letter-spacing: -0.16px;
 
 @media screen and (max-width:768px) {
@@ -112,7 +112,7 @@ background: #06CD98;
 
 @media screen and (max-width:350px) {
     font-size: 16px;
-    padding:10px;
+    padding:20px;
     /* line-height: 0px; */
 }
 }
